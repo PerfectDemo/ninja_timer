@@ -45,7 +45,7 @@ class MyRoot(Tk):
 
 		self.time_count = DEFAULT_TIME_COUNT
 		self.current_status = False  # False 代表 暂停  True 代表 播放
-		self.is_first = True
+		self.is_first = False
 
 	def toggle(self):
 		self.current_status = not self.current_status
